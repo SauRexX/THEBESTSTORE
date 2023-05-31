@@ -20,12 +20,27 @@ body {
 .centrallg{
     width: 70%;
     height: 100%;
-    border: 1px solid red;
+    border: 0px solid rgb(54, 33, 73);
     margin: 0 auto;
 }
 .vermelho{
     width: 50%;
     height: 50%;
     padding: 50px;
+
+}
+.d-flex{
+    display: flex;
+    
+}
+.borracha{
+    white-space:nowrap ;
+}
+.borracha33{
+    padding: 40px;
+    white-space:nowrap
+}
+.cadastro{
+   align-items: center;
 
 }

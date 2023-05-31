@@ -6,28 +6,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>THE BEST STORE</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
 
     <body>
         <div class="titulo">
             <h1>THE BEST STORE</h1>
         </div>
+
         <div class="contenerlogin">
 
            <div class="centrallg">
             <div class="vermelho">
+                        <form action="">
 
-                
-                               <div class="login">
-                                    login
-                                    <input type="email" name="e-mail" id="e-mail">
-                                    <input type="password" name="senha" id="senha">
-                                </div>
-                                <div class="cadastro">
-                                    ainda nao tem cadastro
-                                    cadastre-se
-                                    entrar
-                                </div>
+                            
+                                           <div class="d-flex">
+                                                
+                                                <label class="borracha" for="e-mail">E-mail-</label>
+                                                <input type="email" name="e-mail" id="e-mail"> 
+                                                
+                                            </div>
+                                            <br>
+                                            <br>
+                                            
+                                            <div class="d-flex">
+                                                <label class="borracha" for="senha">Senha -</label>
+                                                <input type="password" name="senha" id="senha"> 
+            
+            
+                                            </div>
+                                            <div class="borracha33">
+                                                
+                                                <button type="submit" onclick="verificarLogin(event)">Logar</button>
+                                                <button type="reset">Limpar campos</button> 
+                                                <div class="cadastro">
+                                                    <button type="submit" onclick="telacadastro(event)" class="borracha">Cadastre-se</button>                                 
+                                                
+                                            </div>
+                        </form>
+                                
+                            </div>
             </div>
            </div> 
         </div>
